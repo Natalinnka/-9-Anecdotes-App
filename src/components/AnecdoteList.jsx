@@ -28,7 +28,7 @@ const AnecdoteList = () => {
                 <strong>({anec.votes} votes)</strong>
               </span>
               <img
-                src="/public/image/icons8-facebook-like-100.png"
+                src="/image/icons8-facebook-like-100.png"
                 alt="vote"
                 className="vote-icon"
                 onClick={() => handleVote(anec)}
